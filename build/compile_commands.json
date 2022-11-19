@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/deznic/projects/Practice1/build",
+  "command": "/usr/bin/c++  -I/home/deznic/projects/Practice1/include -ldl -g -o CMakeFiles/practice1.dir/src/main.cpp.o -c /home/deznic/projects/Practice1/src/main.cpp",
+  "file": "/home/deznic/projects/Practice1/src/main.cpp"
+},
+{
+  "directory": "/home/deznic/projects/Practice1/build",
+  "command": "/usr/bin/cc  -I/home/deznic/projects/Practice1/include -g -o CMakeFiles/practice1.dir/src/glad.c.o -c /home/deznic/projects/Practice1/src/glad.c",
+  "file": "/home/deznic/projects/Practice1/src/glad.c"
+}
+]

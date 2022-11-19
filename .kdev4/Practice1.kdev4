@@ -1,0 +1,69 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x12\x00P\x00r\x00a\x00c\x00t\x00i\x00c\x00e\x001)
+
+[CMake]
+Build Directory Count=4
+Current Build Directory Index-Host System=2
+Temporary Build Directory Index=2
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/deznic/projects/Practice1/build
+Build Type=Debug
+CMake Binary=/usr/local/bin/cmake
+CMake Executable=/usr/local/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[CMake][CMake Build Directory 1]
+Build Directory Path=/home/deznic/projects/Practice1/build
+Build Type=Debug\n
+CMake Binary=/usr/local/bin/cmake
+CMake Executable=/usr/local/bin/cmake
+Environment Profile=
+Extra Arguments=\n-ldl\n
+Install Directory=
+
+[CMake][CMake Build Directory 2]
+Build Directory Path=/home/deznic/projects/Practice1/build
+Build Type=Debug
+CMake Binary=/usr/local/bin/cmake
+CMake Executable=/usr/local/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[CMake][CMake Build Directory 3]
+Build Directory Path=/home/deznic/projects/Practice1/build
+Build Type=Debug\n
+CMake Binary=/usr/local/bin/cmake
+CMake Executable=/usr/local/bin/cmake
+Environment Profile=
+Extra Arguments=test
+Install Directory=
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=Launch1
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/deznic/projects/Practice1
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=Practice1,practice1
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=
