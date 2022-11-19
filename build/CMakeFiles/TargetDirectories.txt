@@ -1,0 +1,7 @@
+/home/deznic/projects/Practice1/build/CMakeFiles/practice1.dir
+/home/deznic/projects/Practice1/build/CMakeFiles/edit_cache.dir
+/home/deznic/projects/Practice1/build/CMakeFiles/rebuild_cache.dir
+/home/deznic/projects/Practice1/build/CMakeFiles/list_install_components.dir
+/home/deznic/projects/Practice1/build/CMakeFiles/install.dir
+/home/deznic/projects/Practice1/build/CMakeFiles/install/local.dir
+/home/deznic/projects/Practice1/build/CMakeFiles/install/strip.dir

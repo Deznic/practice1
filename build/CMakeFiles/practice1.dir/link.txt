@@ -1,0 +1,1 @@
+/usr/bin/c++ -ldl -g -rdynamic CMakeFiles/practice1.dir/src/main.cpp.o CMakeFiles/practice1.dir/src/glad.c.o -o practice1  -lOpenGL -lGLX -lGLU -ldl 
