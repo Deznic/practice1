@@ -9,7 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/deznic/projects/Practice1/src/glad.c" "CMakeFiles/practice1.dir/src/glad.c.o" "gcc" "CMakeFiles/practice1.dir/src/glad.c.o.d"
+  "/home/deznic/projects/Practice1/src/filehandler.cpp" "CMakeFiles/practice1.dir/src/filehandler.cpp.o" "gcc" "CMakeFiles/practice1.dir/src/filehandler.cpp.o.d"
   "/home/deznic/projects/Practice1/src/main.cpp" "CMakeFiles/practice1.dir/src/main.cpp.o" "gcc" "CMakeFiles/practice1.dir/src/main.cpp.o.d"
+  "/home/deznic/projects/Practice1/src/shaderprogram.cpp" "CMakeFiles/practice1.dir/src/shaderprogram.cpp.o" "gcc" "CMakeFiles/practice1.dir/src/shaderprogram.cpp.o.d"
+  "/home/deznic/projects/Practice1/src/texture.cpp" "CMakeFiles/practice1.dir/src/texture.cpp.o" "gcc" "CMakeFiles/practice1.dir/src/texture.cpp.o.d"
+  "/home/deznic/projects/Practice1/src/world.cpp" "CMakeFiles/practice1.dir/src/world.cpp.o" "gcc" "CMakeFiles/practice1.dir/src/world.cpp.o.d"
   )
 
 # Targets to which this target links.

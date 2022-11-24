@@ -1,1 +1,1 @@
-/usr/bin/c++ -ldl -g -rdynamic CMakeFiles/practice1.dir/src/main.cpp.o CMakeFiles/practice1.dir/src/glad.c.o -o practice1  -lOpenGL -lGLX -lGLU -ldl 
+/usr/bin/c++ -ldl -g -rdynamic CMakeFiles/practice1.dir/src/filehandler.cpp.o CMakeFiles/practice1.dir/src/main.cpp.o CMakeFiles/practice1.dir/src/shaderprogram.cpp.o CMakeFiles/practice1.dir/src/texture.cpp.o CMakeFiles/practice1.dir/src/world.cpp.o CMakeFiles/practice1.dir/src/glad.c.o -o practice1  -lOpenGL -lGLX -lGLU -lSDL2 -lSDL2_image -ldl 

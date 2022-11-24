@@ -13,6 +13,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.0/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
+  "/home/deznic/projects/Practice1/cmake/FindSDL2_image.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake"
   "/usr/local/share/cmake-3.25/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
   "/usr/local/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
@@ -49,4 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/practice1.dir/DependInfo.cmake"
+  "CMakeFiles/copyResources.dir/DependInfo.cmake"
   )

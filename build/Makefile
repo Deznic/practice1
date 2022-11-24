@@ -175,6 +175,43 @@ practice1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/build
 .PHONY : practice1/fast
 
+#=============================================================================
+# Target rules for targets named copyResources
+
+# Build rule for target.
+copyResources: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copyResources
+.PHONY : copyResources
+
+# fast build rule for target.
+copyResources/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copyResources.dir/build.make CMakeFiles/copyResources.dir/build
+.PHONY : copyResources/fast
+
+src/filehandler.o: src/filehandler.cpp.o
+.PHONY : src/filehandler.o
+
+# target to build an object file
+src/filehandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/filehandler.cpp.o
+.PHONY : src/filehandler.cpp.o
+
+src/filehandler.i: src/filehandler.cpp.i
+.PHONY : src/filehandler.i
+
+# target to preprocess a source file
+src/filehandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/filehandler.cpp.i
+.PHONY : src/filehandler.cpp.i
+
+src/filehandler.s: src/filehandler.cpp.s
+.PHONY : src/filehandler.s
+
+# target to generate assembly for a file
+src/filehandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/filehandler.cpp.s
+.PHONY : src/filehandler.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -223,6 +260,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shaderprogram.o: src/shaderprogram.cpp.o
+.PHONY : src/shaderprogram.o
+
+# target to build an object file
+src/shaderprogram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/shaderprogram.cpp.o
+.PHONY : src/shaderprogram.cpp.o
+
+src/shaderprogram.i: src/shaderprogram.cpp.i
+.PHONY : src/shaderprogram.i
+
+# target to preprocess a source file
+src/shaderprogram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/shaderprogram.cpp.i
+.PHONY : src/shaderprogram.cpp.i
+
+src/shaderprogram.s: src/shaderprogram.cpp.s
+.PHONY : src/shaderprogram.s
+
+# target to generate assembly for a file
+src/shaderprogram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/shaderprogram.cpp.s
+.PHONY : src/shaderprogram.cpp.s
+
+src/texture.o: src/texture.cpp.o
+.PHONY : src/texture.o
+
+# target to build an object file
+src/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/texture.cpp.o
+.PHONY : src/texture.cpp.o
+
+src/texture.i: src/texture.cpp.i
+.PHONY : src/texture.i
+
+# target to preprocess a source file
+src/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/texture.cpp.i
+.PHONY : src/texture.cpp.i
+
+src/texture.s: src/texture.cpp.s
+.PHONY : src/texture.s
+
+# target to generate assembly for a file
+src/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/texture.cpp.s
+.PHONY : src/texture.cpp.s
+
+src/world.o: src/world.cpp.o
+.PHONY : src/world.o
+
+# target to build an object file
+src/world.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/world.cpp.o
+.PHONY : src/world.cpp.o
+
+src/world.i: src/world.cpp.i
+.PHONY : src/world.i
+
+# target to preprocess a source file
+src/world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/world.cpp.i
+.PHONY : src/world.cpp.i
+
+src/world.s: src/world.cpp.s
+.PHONY : src/world.s
+
+# target to generate assembly for a file
+src/world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/src/world.cpp.s
+.PHONY : src/world.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,13 +344,26 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... copyResources"
 	@echo "... practice1"
+	@echo "... src/filehandler.o"
+	@echo "... src/filehandler.i"
+	@echo "... src/filehandler.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/shaderprogram.o"
+	@echo "... src/shaderprogram.i"
+	@echo "... src/shaderprogram.s"
+	@echo "... src/texture.o"
+	@echo "... src/texture.i"
+	@echo "... src/texture.s"
+	@echo "... src/world.o"
+	@echo "... src/world.i"
+	@echo "... src/world.s"
 .PHONY : help
 
 
