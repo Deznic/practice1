@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/deznic/projects/Practice1/include
+C_INCLUDES = -I/usr/include/SDL2 -I/home/deznic/projects/Practice1/include
 
 C_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/deznic/projects/Practice1/include
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/deznic/projects/Practice1/include
 
 CXX_FLAGS = -ldl -g
 

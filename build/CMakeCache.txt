@@ -242,6 +242,36 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 //The directory containing a CMake configuration file for OpenDL.
 OpenDL_DIR:PATH=OpenDL_DIR-NOTFOUND
 
+//The directory containing a CMake configuration file for SDL2IMAGE.
+SDL2IMAGE_DIR:PATH=SDL2IMAGE_DIR-NOTFOUND
+
+//Path to a library.
+SDL2MAIN_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libSDL2main.a
+
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
+
+//Where the SDL2_image headers can be found
+SDL2_IMAGE_INCLUDE_DIR:PATH=/usr/include/SDL2
+
+//Where the SDL2_image Library can be found
+SDL2_IMAGE_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libSDL2_image.so
+
+//Disable search SDL2_image Library in default path
+SDL2_IMAGE_NO_DEFAULT_PATH:BOOL=OFF
+
+//Custom SDL2_image Library path
+SDL2_IMAGE_PATH:STRING=
+
+//Path to a file.
+SDL2_INCLUDE_DIR:PATH=/usr/include/SDL2
+
+//Where the SDL Library can be found
+SDL2_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread
+
+//The directory containing a CMake configuration file for SDL2_image.
+SDL2_image_DIR:PATH=SDL2_image_DIR-NOTFOUND
+
 //Value Computed by CMake
 practice1_BINARY_DIR:STATIC=/home/deznic/projects/Practice1/build
 
@@ -334,6 +364,12 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/deznic/projects/Practice1
@@ -401,6 +437,12 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][c ][v()]
+//Details about finding SDL
+FIND_PACKAGE_MESSAGE_DETAILS_SDL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread][/usr/include/SDL2][v()]
+//Details about finding SDL2_image
+FIND_PACKAGE_MESSAGE_DETAILS_SDL2_image:INTERNAL=[/usr/lib/x86_64-linux-gnu/libSDL2_image.so][/usr/include/SDL2][v2.0.5()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR
 OPENGL_EGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_GLX_INCLUDE_DIR
@@ -419,6 +461,16 @@ OPENGL_glx_LIBRARY-ADVANCED:INTERNAL=1
 OPENGL_opengl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_xmesa_INCLUDE_DIR
 OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_IMAGE_INCLUDE_DIR
+SDL2_IMAGE_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_IMAGE_LIBRARY
+SDL2_IMAGE_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_IMAGE_NO_DEFAULT_PATH
+SDL2_IMAGE_NO_DEFAULT_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SDL2_IMAGE_PATH
+SDL2_IMAGE_PATH-ADVANCED:INTERNAL=1
+//Path to a library.
+SDL2_LIBRARY_TEMP:INTERNAL=/usr/lib/x86_64-linux-gnu/libSDL2.so
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

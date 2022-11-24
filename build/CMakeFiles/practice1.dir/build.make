@@ -69,10 +69,24 @@ include CMakeFiles/practice1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/practice1.dir/flags.make
 
+CMakeFiles/practice1.dir/src/filehandler.cpp.o: CMakeFiles/practice1.dir/flags.make
+CMakeFiles/practice1.dir/src/filehandler.cpp.o: /home/deznic/projects/Practice1/src/filehandler.cpp
+CMakeFiles/practice1.dir/src/filehandler.cpp.o: CMakeFiles/practice1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practice1.dir/src/filehandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice1.dir/src/filehandler.cpp.o -MF CMakeFiles/practice1.dir/src/filehandler.cpp.o.d -o CMakeFiles/practice1.dir/src/filehandler.cpp.o -c /home/deznic/projects/Practice1/src/filehandler.cpp
+
+CMakeFiles/practice1.dir/src/filehandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice1.dir/src/filehandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deznic/projects/Practice1/src/filehandler.cpp > CMakeFiles/practice1.dir/src/filehandler.cpp.i
+
+CMakeFiles/practice1.dir/src/filehandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice1.dir/src/filehandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deznic/projects/Practice1/src/filehandler.cpp -o CMakeFiles/practice1.dir/src/filehandler.cpp.s
+
 CMakeFiles/practice1.dir/src/main.cpp.o: CMakeFiles/practice1.dir/flags.make
 CMakeFiles/practice1.dir/src/main.cpp.o: /home/deznic/projects/Practice1/src/main.cpp
 CMakeFiles/practice1.dir/src/main.cpp.o: CMakeFiles/practice1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practice1.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practice1.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice1.dir/src/main.cpp.o -MF CMakeFiles/practice1.dir/src/main.cpp.o.d -o CMakeFiles/practice1.dir/src/main.cpp.o -c /home/deznic/projects/Practice1/src/main.cpp
 
 CMakeFiles/practice1.dir/src/main.cpp.i: cmake_force
@@ -83,10 +97,52 @@ CMakeFiles/practice1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice1.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deznic/projects/Practice1/src/main.cpp -o CMakeFiles/practice1.dir/src/main.cpp.s
 
+CMakeFiles/practice1.dir/src/shaderprogram.cpp.o: CMakeFiles/practice1.dir/flags.make
+CMakeFiles/practice1.dir/src/shaderprogram.cpp.o: /home/deznic/projects/Practice1/src/shaderprogram.cpp
+CMakeFiles/practice1.dir/src/shaderprogram.cpp.o: CMakeFiles/practice1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/practice1.dir/src/shaderprogram.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice1.dir/src/shaderprogram.cpp.o -MF CMakeFiles/practice1.dir/src/shaderprogram.cpp.o.d -o CMakeFiles/practice1.dir/src/shaderprogram.cpp.o -c /home/deznic/projects/Practice1/src/shaderprogram.cpp
+
+CMakeFiles/practice1.dir/src/shaderprogram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice1.dir/src/shaderprogram.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deznic/projects/Practice1/src/shaderprogram.cpp > CMakeFiles/practice1.dir/src/shaderprogram.cpp.i
+
+CMakeFiles/practice1.dir/src/shaderprogram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice1.dir/src/shaderprogram.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deznic/projects/Practice1/src/shaderprogram.cpp -o CMakeFiles/practice1.dir/src/shaderprogram.cpp.s
+
+CMakeFiles/practice1.dir/src/texture.cpp.o: CMakeFiles/practice1.dir/flags.make
+CMakeFiles/practice1.dir/src/texture.cpp.o: /home/deznic/projects/Practice1/src/texture.cpp
+CMakeFiles/practice1.dir/src/texture.cpp.o: CMakeFiles/practice1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/practice1.dir/src/texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice1.dir/src/texture.cpp.o -MF CMakeFiles/practice1.dir/src/texture.cpp.o.d -o CMakeFiles/practice1.dir/src/texture.cpp.o -c /home/deznic/projects/Practice1/src/texture.cpp
+
+CMakeFiles/practice1.dir/src/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice1.dir/src/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deznic/projects/Practice1/src/texture.cpp > CMakeFiles/practice1.dir/src/texture.cpp.i
+
+CMakeFiles/practice1.dir/src/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice1.dir/src/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deznic/projects/Practice1/src/texture.cpp -o CMakeFiles/practice1.dir/src/texture.cpp.s
+
+CMakeFiles/practice1.dir/src/world.cpp.o: CMakeFiles/practice1.dir/flags.make
+CMakeFiles/practice1.dir/src/world.cpp.o: /home/deznic/projects/Practice1/src/world.cpp
+CMakeFiles/practice1.dir/src/world.cpp.o: CMakeFiles/practice1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/practice1.dir/src/world.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice1.dir/src/world.cpp.o -MF CMakeFiles/practice1.dir/src/world.cpp.o.d -o CMakeFiles/practice1.dir/src/world.cpp.o -c /home/deznic/projects/Practice1/src/world.cpp
+
+CMakeFiles/practice1.dir/src/world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice1.dir/src/world.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deznic/projects/Practice1/src/world.cpp > CMakeFiles/practice1.dir/src/world.cpp.i
+
+CMakeFiles/practice1.dir/src/world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice1.dir/src/world.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deznic/projects/Practice1/src/world.cpp -o CMakeFiles/practice1.dir/src/world.cpp.s
+
 CMakeFiles/practice1.dir/src/glad.c.o: CMakeFiles/practice1.dir/flags.make
 CMakeFiles/practice1.dir/src/glad.c.o: /home/deznic/projects/Practice1/src/glad.c
 CMakeFiles/practice1.dir/src/glad.c.o: CMakeFiles/practice1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/practice1.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/practice1.dir/src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/practice1.dir/src/glad.c.o -MF CMakeFiles/practice1.dir/src/glad.c.o.d -o CMakeFiles/practice1.dir/src/glad.c.o -c /home/deznic/projects/Practice1/src/glad.c
 
 CMakeFiles/practice1.dir/src/glad.c.i: cmake_force
@@ -99,20 +155,29 @@ CMakeFiles/practice1.dir/src/glad.c.s: cmake_force
 
 # Object files for target practice1
 practice1_OBJECTS = \
+"CMakeFiles/practice1.dir/src/filehandler.cpp.o" \
 "CMakeFiles/practice1.dir/src/main.cpp.o" \
+"CMakeFiles/practice1.dir/src/shaderprogram.cpp.o" \
+"CMakeFiles/practice1.dir/src/texture.cpp.o" \
+"CMakeFiles/practice1.dir/src/world.cpp.o" \
 "CMakeFiles/practice1.dir/src/glad.c.o"
 
 # External object files for target practice1
 practice1_EXTERNAL_OBJECTS =
 
+practice1: CMakeFiles/practice1.dir/src/filehandler.cpp.o
 practice1: CMakeFiles/practice1.dir/src/main.cpp.o
+practice1: CMakeFiles/practice1.dir/src/shaderprogram.cpp.o
+practice1: CMakeFiles/practice1.dir/src/texture.cpp.o
+practice1: CMakeFiles/practice1.dir/src/world.cpp.o
 practice1: CMakeFiles/practice1.dir/src/glad.c.o
 practice1: CMakeFiles/practice1.dir/build.make
 practice1: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 practice1: /usr/lib/x86_64-linux-gnu/libGLX.so
 practice1: /usr/lib/x86_64-linux-gnu/libGLU.so
+practice1: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 practice1: CMakeFiles/practice1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable practice1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deznic/projects/Practice1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable practice1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practice1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
